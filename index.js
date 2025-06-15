@@ -1,6 +1,5 @@
 let countEl = document.getElementById("count-el")
 let count = 0
-
 let saveEl = document.getElementById("save-el")
 
 
@@ -23,8 +22,4 @@ function save() {
     saveEl.textContent = saveEl.textContent + saves
     countEl.textContent = 0 
     count = 0
-    
-    
 }
-
-save()
